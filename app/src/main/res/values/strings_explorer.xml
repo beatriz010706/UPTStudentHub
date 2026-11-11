@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Módulo 3 «Explorer» (trabalho de avaliação) -->
+<resources>
+    <!-- Main -->
+    <string name="btn_open_explorer">Explorer</string>
+
+    <!-- Explorer -->
+    <string name="ex_label">Weekly forecast</string>
+    <string name="ex_greeting">Hi %1$s — weekly forecast</string>
+    <string name="ex_status_idle">Ready</string>
+    <string name="ex_status_success">%1$s · %2$d days</string>
+    <string name="ex_status_empty">The server returned no forecast.</string>
+    <string name="ex_status_cancelled">Request cancelled. Showing the previous data.</string>
+    <string name="ex_battery_low">Battery low — automatic refresh paused</string>
+    <string name="ex_panel_hint">Tap a day to see the hourly forecast</string>
+    <string name="ex_err_empty">The server returned no data.</string>
+
+    <!-- Places -->
+    <string name="ex_place_porto">Porto</string>
+    <string name="ex_place_lisboa">Lisbon</string>
+    <string name="ex_place_faro">Faro</string>
+
+    <!-- Menu -->
+    <string name="ex_menu_place">Location</string>
+    <string name="ex_menu_compare">Compare</string>
+    <string name="ex_menu_settings">Settings</string>
+
+    <!-- Rows and values -->
+    <string name="ex_row_temps">Max %1$s · Min %2$s</string>
+    <string name="ex_row_rain">Rain: %1$d%%</string>
+    <string name="ex_rain_missing">Rain: —</string>
+    <string name="ex_value_missing">—</string>
+    <string name="ex_temp_c">%1$.0f °C</string>
+    <string name="ex_temp_f">%1$.0f °F</string>
+    <string name="ex_max">Max: %1$s</string>
+    <string name="ex_min">Min: %1$s</string>
+    <string name="cd_weather_icon">Weather conditions icon</string>
+    <string name="cd_favorite">Favorite</string>
+
+    <!-- Detail -->
+    <string name="ex_detail_label">Hourly forecast</string>
+    <string name="ex_detail_title">%1$s · %2$s</string>
+    <string name="ex_detail_empty">No hourly data for this day.</string>
+    <string name="ex_btn_favorite_add">Mark as favorite</string>
+    <string name="ex_btn_favorite_remove">Remove favorite</string>
+    <string name="ex_confirm_remove_title">Remove favorite?</string>
+    <string name="ex_confirm_remove_msg">This day will no longer be marked as a favorite.</string>
+    <string name="ex_remove">Remove</string>
+    <string name="ex_toast_fav_added">Marked as favorite</string>
+    <string name="ex_toast_fav_removed">Favorite removed</string>
+
+    <!-- Settings -->
+    <string name="ex_settings_label">Settings</string>
+    <string name="ex_set_unit">Temperature unit</string>
+    <string name="ex_unit_c">Celsius</string>
+    <string name="ex_unit_f">Fahrenheit</string>
+    <string name="ex_set_days">Days in the forecast</string>
+    <string name="ex_days_3">3 days</string>
+    <string name="ex_days_5">5 days</string>
+    <string name="ex_days_7">7 days</string>
+    <string name="ex_set_auto">Automatic refresh</string>
+    <string name="ex_set_threshold_hint">Rain threshold (0 to 100)</string>
+    <string name="ex_set_interval_hint">Refresh interval in seconds (5 to 3600)</string>
+    <string name="ex_btn_save">Save</string>
+    <string name="ex_err_threshold">Enter a whole number from 0 to 100</string>
+    <string name="ex_err_interval">Enter a whole number from 5 to 3600</string>
+    <string name="ex_toast_settings_saved">Settings saved</string>
+
+    <!-- Compare -->
+    <string name="ex_compare_label">Compare locations</string>
+    <string name="ex_compare_title">Today in Porto, Lisbon and Faro</string>
+    <string name="ex_btn_compare">Compare again</string>
+    <string name="ex_menu_fail">Simulate Faro failure</string>
+</resources>

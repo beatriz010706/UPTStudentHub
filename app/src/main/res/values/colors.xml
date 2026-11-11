@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="upt_navy">#003366</color>
+    <color name="upt_light">#F2F5F9</color>
+
+    <!-- Module 3 -->
+    <color name="ex_offline_bg">#B00020</color>
+    <color name="ex_battery_bg">#E65100</color>
+    <color name="ex_rain_highlight">#3342A5F5</color>
+    <color name="ex_icon_sun">#FFB300</color>
+    <color name="ex_icon_cloud">#78909C</color>
+    <color name="ex_icon_rain">#1E88E5</color>
+    <color name="ex_icon_snow">#4FC3F7</color>
+    <color name="ex_icon_storm">#FB8C00</color>
+    <color name="ex_favorite">#FFC107</color>
+</resources>
