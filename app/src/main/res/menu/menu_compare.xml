@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_compare_again"
+        android:title="@string/ex_btn_compare"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_compare_fail"
+        android:title="@string/ex_menu_fail"
+        app:showAsAction="never" />
+</menu>
