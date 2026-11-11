@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/spacing_s">
+
+    <ImageView
+        android:id="@+id/ivHourIcon"
+        android:layout_width="@dimen/ex_icon_small"
+        android:layout_height="@dimen/ex_icon_small"
+        android:contentDescription="@string/cd_weather_icon" />
+
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_s"
+        android:layout_weight="1"
+        android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+    <TextView
+        android:id="@+id/tvHourTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+    <TextView
+        android:id="@+id/tvHourRain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:textAppearance="?attr/textAppearanceBodyMedium" />
+</LinearLayout>

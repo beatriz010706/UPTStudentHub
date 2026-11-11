@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/touch_target"
+    android:orientation="horizontal"
+    android:padding="@dimen/ex_row_padding">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/ex_icon_size"
+        android:layout_height="@dimen/ex_icon_size"
+        android:contentDescription="@string/cd_weather_icon" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_m"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodySmall" />
+
+        <TextView
+            android:id="@+id/tvTemps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+        <TextView
+            android:id="@+id/tvRain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivFavorite"
+        android:layout_width="@dimen/ex_icon_small"
+        android:layout_height="@dimen/ex_icon_small"
+        android:contentDescription="@string/cd_favorite"
+        android:src="@drawable/ic_star"
+        android:visibility="gone" />
+</LinearLayout>
